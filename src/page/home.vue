@@ -1,7 +1,6 @@
 <template>
     <div>
-        HOME
-        <!--<head-top></head-top>
+        <head-top></head-top>
         <section class="data_section">
             <header class="section_title">数据统计</header>
             <el-row :gutter="20"
@@ -36,12 +35,12 @@
         </section>
         <tendency :sevenDate='sevenDate'
                   :sevenDay='sevenDay'></tendency>
-        -->
+
     </div>
 </template>
 
 <script>
-/*
+
 import headTop from '../components/headTop'
 import tendency from '../components/tendency'
 import dtime from 'time-formater'
@@ -111,7 +110,7 @@ export default {
         }
     }
 }
-*/
+
 </script>
 
 <style lang="less">

@@ -15,6 +15,58 @@ module.exports = {
             '/admin': {
                 target: proxypath,
                 changeOrigin: true,
+            },
+            '/shopping': {
+                target: proxypath,
+                changeOrigin: true,
+            },
+            '/ugc': {
+                target: proxypath,
+                changeOrigin: true,
+            },
+            '/v1': {
+                target: proxypath,
+                changeOrigin: true,
+            },
+            '/v2': {
+                target: proxypath,
+                changeOrigin: true,
+            },
+            '/v3': {
+                target: proxypath,
+                changeOrigin: true,
+            },
+            '/v4': {
+                target: proxypath,
+                changeOrigin: true,
+            },
+            '/bos': {
+                target: proxypath,
+                changeOrigin: true,
+            },
+            '/member': {
+                target: proxypath,
+                changeOrigin: true,
+            },
+            '/promotion': {
+                target: proxypath,
+                changeOrigin: true,
+            },
+            '/eus': {
+                target: proxypath,
+                changeOrigin: true,
+            },
+            '/payapi': {
+                target: proxypath,
+                changeOrigin: true,
+            },
+            '/statis': {
+                target: proxypath,
+                changeOrigin: true,
+            },
+            '/img': {
+                target: proxypath,
+                changeOrigin: true,
             }
         },
 

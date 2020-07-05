@@ -1,15 +1,18 @@
 <template>
 
     <div class="manage_page fillcontain">
-        xxxx
-        <el-row style="height: 100%;">
+        <el-row class="tac"
+                style="height: 100%;"
+                :span="4">
             <el-col :span="4"
                     style="min-height: 100%; background-color: #324057;">
                 <el-menu :default-active="defaultActive"
+                         background-color="#324057"
+                         text-color="#ffffff"
+                         active-text-color="#ffd04b"
                          style="min-height: 100%;"
-                         theme="dark"
                          router>
-                    <el-menu-item index="manage"><i class="el-icon-menu"></i>首页</el-menu-item>
+                    <el-menu-item index="manager"><i class="el-icon-menu"></i>首页</el-menu-item>
                     <el-submenu index="2">
                         <template slot="title"><i class="el-icon-document"></i>数据管理</template>
                         <el-menu-item index="userList">用户列表</el-menu-item>
@@ -56,11 +59,14 @@
 
 <script>
 export default {
+    data () {
+        return {
+        }
+    },
     computed: {
         defaultActive: function () {
-            return true;
-            //console.log(this.$route.path)
-            //return this.$route.path.replace('/', '');
+            console.log(this.$route.path)
+            return this.$route.path.replace('/', '');
         }
     },
 }

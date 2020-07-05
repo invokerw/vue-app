@@ -1,9 +1,9 @@
 
 export default async (url = '', data = {}, type = 'GET', method = 'fetch') => {
     type = type.toUpperCase();
-    console.log("fetch")
-    console.log(url)
-    console.log(data)
+    //console.log("fetch")
+    //console.log(url)
+    //console.log(data)
     if (type == 'GET') {
         let dataStr = ''; //数据拼接字符串
         Object.keys(data).forEach(key => {

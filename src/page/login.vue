@@ -78,7 +78,7 @@ export default {
                             type: 'success',
                             message: '登录成功'
                         });
-                        this.$router.push('manage')
+                        this.$router.push('manager')
                     } else {
                         this.$message({
                             type: 'error',
@@ -105,7 +105,7 @@ export default {
                     type: 'success',
                     message: '检测到您之前登录过，将自动登录'
                 });
-                this.$router.push('manage')
+                this.$router.push('manager')
             }
         }
     }
@@ -129,8 +129,8 @@ export default {
     }
 }
 .form_contianer {
-    .wh(320px, 210px);
-    .ctp(320px, 210px);
+    .wh(320px, 220px);
+    .ctp(320px, 220px);
     padding: 25px;
     border-radius: 5px;
     text-align: center;
